@@ -1,4 +1,7 @@
 # springboot-dubbo
+参考文档:
+http://www.apigo.cn/2018/08/14/springboot7/
+https://juejin.im/post/5b9f9d9df265da0a867c2a9f
 使用 SpringBoot+Dubbo 搭建一个简单分布式服务
 我们先来简单的了解一下这样几个概念：Dubbo、RPC、分布式、由于本文的目的是带大家使用SpringBoot+Dubbo 搭建一个简单的分布式服务，所以这些概念我只会简单给大家普及一下，不会做深入探究。
 
@@ -52,19 +55,13 @@ RPC（Remote Procedure Call）—远程过程调用，它是一种通过网络�
 我使用的是 CentOS 7.4 阿里云服务器，注意：如果你也同样阿里云服务器必须配置一个安全组，不然你的应用程序会无法访问你的 zookeeper 服务器，这一点我在后面也提到了。
 
 1. 下载
-通过 http://mirror.bit.edu.cn/apache/zookeeper/ 这个链接下载，然后上传到Linux上。（可以说那个 Xhell 附带的文件传输功能）
-
-
-
-
+通过 http://mirror.bit.edu.cn/apache/zookeeper/ 这个链接下载，然后上传到Linux上。（可以说那个 Xhell 附带的文件传输功能
 
 
 或者直接在Linux中使用 wget https://archive.apache.org/dist/zookeeper/zookeeper-3.4.12/zookeeper-3.4.12.tar.gz 命令下载（版本号 3.4.12 是我写这篇文章的时候最新的稳定版本，各位可以根据实际情况修改）
 
 2. 解压
 tar -zxvf zookeeper-3.4.12-alpha.tar.gz
-
-
 
 解压完毕之后修改一下解压之后所得的文件夹名
 
