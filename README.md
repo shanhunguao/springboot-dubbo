@@ -2,6 +2,10 @@
 主要参考文档:
 构建微服务:https://zhuanlan.zhihu.com/p/51241558
 springboot集成mybatis-generator:http://www.apigo.cn/2018/08/14/springboot7/
+dubbo监控:https://www.cnblogs.com/qlqwjy/p/10561601.html
+maven打成的war包：dubbo-admin-2.5.10.war
+
+
 使用 SpringBoot+Dubbo 搭建一个简单分布式服务
 我们先来简单的了解一下这样几个概念：Dubbo、RPC、分布式、由于本文的目的是带大家使用SpringBoot+Dubbo 搭建一个简单的分布式服务，所以这些概念我只会简单给大家普及一下，不会做深入探究。
 
